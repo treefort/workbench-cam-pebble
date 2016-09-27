@@ -1,0 +1,30 @@
+{
+  "name": "workbench-cam-pebble",
+  "author": "Evan Booth (@evanbooth)",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Workbench Cam",
+    "uuid": "55184df6-419b-49d9-8e6f-3fcfb9b8031d",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "CamAction",
+      "CamActionResult"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
